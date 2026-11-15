@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Passtru is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://passtru.io
+Passtru provides identity verification services that enable users to prove who they are once and share only the necessary proof with services. It supports age verification, KYC, document verification, and sanctions screening through standard OIDC flows, public APIs, SDK helpers, signed webhooks, and receipt-aware verification flows. The platform offers developer documentation, integration guides, and resources for businesses and agents to implement secure identity proofing.
+
+**Areas:** Identity Verification · Age Verification · KYC · Document Verification · Sanctions Screening
+
+## Passtru on APIs.io
+
+Everything profiled for Passtru is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/passtru/](https://apis.io/providers/passtru/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Passtru API](https://apis.io/apis/passtru/passtru-api/) — Passtru API as documented publicly: 21 operations. Contract generated from the documentation by API Evangelist (2026-11-10); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetOauthV2KeysResponse](https://apis.io/schemas/passtru/passtru-get-oauth-v2-keys-response/)
+- [GetOidcV1UserinfoResponse](https://apis.io/schemas/passtru/passtru-get-oidc-v1-userinfo-response/)
+- [GetWellKnownOpenidConfigurationResponse](https://apis.io/schemas/passtru/passtru-get-well-known-openid-configuration-response/)
+- [PostApiV1PublicAppsApp123SessionsRequest](https://apis.io/schemas/passtru/passtru-post-api-v1-public-apps-app123-sessions-request/)
+- [PostOauthV2RevokeResponse](https://apis.io/schemas/passtru/passtru-post-oauth-v2-revoke-response/)
+- [PostOauthV2TokenResponse](https://apis.io/schemas/passtru/passtru-post-oauth-v2-token-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Passtru Context](https://apis.io/jsonld/passtru/passtru-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Passtru API Rules](https://apis.io/rules/passtru/passtru-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Passtru Authentication](https://apis.io/security/passtru/passtru-authentication/)
+- [Passtru Domain Security](https://apis.io/security/passtru/passtru-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://passtru.io)
+- [Documentation](https://passtru.io/en/developers)
+- [Getting started](https://passtru.io/en/developers/quickstart)
+- [API reference](https://passtru.io/en/developers)
+- [Blog](https://passtru.io/en/resources)
+- [Terms of service](https://passtru.io/en/legal/terms)
+- [Privacy policy](https://passtru.io/en/legal/privacy)
+- [GitHub](https://github.com/passtru)
+- [Status](https://status.passtru.io/status/status)
+
+## API Evangelist rating
+
+**Kin Score 14.5** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 23.7 |
+
+**Agent readiness 6.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/passtru/](https://apis.io/providers/passtru/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Passtru: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/passtru/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
